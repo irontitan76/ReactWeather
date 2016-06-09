@@ -5,20 +5,10 @@ var Examples = () => {
   return (
     <div>
       <h1 className="text-center page-title">Examples</h1>
-      <p>
-        Here are a few example locations to try out!
-      </p>
+      <p>Here are a few example locations to try out!</p>
       <ol>
-        <li>
-          <Link to='/?location=Cypress,TX'>
-            Cypress, TX
-          </Link>
-        </li>
-        <li>
-          <Link to='/?Sydney,Australia'>
-            Sydney, Australia
-          </Link>
-        </li>
+        <li><Link to='/?location=Cypress, TX'>Cypress, TX</Link></li>
+        <li><Link to='/?location=Sydney, Australia'>Sydney, Australia</Link></li>
       </ol>
     </div>
   );
